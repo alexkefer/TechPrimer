@@ -1,0 +1,245 @@
+#root {
+  --color-bg: white /* #69f7be */;
+  --color-text-main: #000000;
+  --color-primary: #ffff00;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";
+}
+
+body {
+  font-family: HK Grotesk;
+  background-color: var(--color-bg);
+  /*   background: rgb(115,255,155);
+    background: linear-gradient(140deg, rgba(115,255,155,1) 0%, rgba(2,204,205,1) 32%, rgba(222,0,255,1) 100%); */
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Page structure */
+.wrapper {
+  min-height: var(--wrapper-height);
+  display: grid;
+  place-items: center;
+  margin: 0 1rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Very light scaling for our illustration */
+.title {
+  color: #2800ff;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 105%;
+  margin: 0;
+}
+
+/* Very light scaling for our illustration */
+.illustration {
+  max-width: 100%;
+  max-height: var(--image-max-width);
+  margin-top: var(--image-margin);
+}
+
+/* Instructions */
+.instructions {
+  margin: 1rem auto 0;
+}
+
+/* Button - Add it from the README instructions */
+
+/* Subheading */
+h2 {
+  color: #2800ff;
+}
+
+/* Interactive image */
+.illustration:active {
+  transform: translateY(5px);
+}
+
+/* Button dip
+- Toggling this class on and off will move it down and up again
+- The button transition property above determines the speed of the translate (500ms)
+*/
+.dipped {
+  transform: translateY(5px);
+}
+
+/* Links that open files in the editor */
+.fileopener {
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 3px solid var(--color-primary);
+  color: var(--color-secondary);
+}
+.fileopener:hover {
+  border-bottom: 3px solid var(--color-secondary);
+}
+
+.ht-vid {
+  display: flex;
+  justify-content: center;
+}
+
+.ht-vid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+video {
+  display: block; /* Ensures that margin: auto works for horizontal centering */
+  /* Additional styling can be applied here */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4px solid #ffffff;
+  margin-bottom: 0.5rem;
+  font-size: 32px;
+  padding-bottom: 0.5rem;
+}
+
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.centered {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered h1 {
+  background: rgba(100, 100, 100, 0.25);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  margin-top: 16.665px;
+}
+
+.CustomGrid {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 8rem;
+}
+
+.button-grid {
+  margin-top: 3rem
+}
+
+.button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+
+.button:hover {
+  border-color: #555555;
+  background-color: #888888;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color:#111111;
+}
+
+.button.course-button {
+  width: 400px;
+  height: 250px;
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.button.hardware-course {
+  background-image: url("https://cdn.glitch.global/4239e16b-9d82-4955-8858-fb32d502f520/Screen%20Shot%202024-03-03%20at%205.08.16%20PM.png?v=1709514501289");
+}
+
+.course-button:hover {
+  opacity: 0.7;
+  border: 2px solid #FFFFFF;
+}
+
+.course-button:active {
+  opacity: 0.4;
+}
+
+.search {
+  margin-inline: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input {
+  width: 500px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #d3d3d3;
+  color: black;
+}
+
+.panel {
+  width: 400px;
+  height: 250px;
+  background: #D9D9D9;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+}
+
+.panel h1 {
+  text-align: center;
+}
+
+.inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
