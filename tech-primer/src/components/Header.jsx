@@ -12,7 +12,7 @@ function Header() {
     }
     return (
         <header>
-            <div className="header p-2">
+            <div className="header p-1 bg-black bg-opacity-25">
                 <Link to="/" className={'button flex'}>
                     <FaBook className={'mt-2'}/>
                     <p className={'ml-2'}>
