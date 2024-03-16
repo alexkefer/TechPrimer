@@ -5,6 +5,8 @@ import GeneralCourse from "./pages/GeneralCourse/GeneralCourse.jsx";
 import Catalogue from "./pages/CataloguePage.jsx";
 import VideoTutorial from "./pages/HowTo.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
+// import TextBoxNavigator from "./components/TextboxNavigator.jsx";
+import TextboxTestPage from "./pages/GeneralCourse/generalcourses/TextboxTestPage.jsx";
 
 const BrowserRouter = createBrowserRouter([
     { path: "/", element: <HomePage/> },
@@ -12,6 +14,7 @@ const BrowserRouter = createBrowserRouter([
     { path: "/generalcourses", element: <GeneralCourse/> },
     { path: "/catalogue", element: <Catalogue/> },
     { path: "/howto", element: <VideoTutorial/> },
+    { path: "/textbox", element: <TextboxTestPage/> },
     { path: "/*", element: <ErrorPage/>}
     ]);
 

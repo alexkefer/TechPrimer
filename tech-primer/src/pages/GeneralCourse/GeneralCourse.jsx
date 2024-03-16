@@ -7,6 +7,9 @@ const GeneralCourse = () => {
     return (
         <Layout>
             <div className="flex flex-row gap-[2rem] text-center justify-center flex-wrap mb-8">
+            <Link to="/textbox" className={'button'}>
+                    <p>Textbox Test</p>
+                </Link>
                 <Link to="/generalcourses/hardwareoverview" className={'button'}>
                     <p>Hardware Overview</p>
                 </Link>
