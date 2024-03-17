@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaC, FaRegCircleCheck } from "react-icons/fa6";
 import '../App.css';
 
-function TextBoxNavigator ({ titles, textBoxes, images }) {
+function TextBoxNavigator ({ titles, subTitles, textBoxes, images }) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [understood, setUnderstood] = useState(false);
 
@@ -24,6 +24,7 @@ function TextBoxNavigator ({ titles, textBoxes, images }) {
         <div className="flex flex-col mx-20 pb-8 gap-[2rem]">
             {/* content */}
             <h1 className='text-center text-2xl'>{titles[currentIndex]}</h1>
+            <h1 className='text-center text-xl'>{subTitles[currentIndex]}</h1>
             <img className='mx-20' src={images[currentIndex]} alt={`Image ${currentIndex}`} />
             <p className='text-center'>{textBoxes[currentIndex]}</p>
             

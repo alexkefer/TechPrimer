@@ -24,7 +24,7 @@ const TextboxTestPage = () => {
     ];
     const images = [
         'cataloguebackground.png',
-        'https://via.placeholder.com/150x100',
+        'https://via.placeholder.com/200x100',
         'https://via.placeholder.com/250x100',
         'https://via.placeholder.com/250x150'
     ];
