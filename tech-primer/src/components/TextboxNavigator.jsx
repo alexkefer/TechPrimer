@@ -26,6 +26,7 @@ function TextBoxNavigator ({ titles, subTitles, textBoxes, images }) {
 
     const checkMisunderstood = () => {
         setMisunderstood(true);
+        prompt("What are you not able to understand");
     }
 
     return (
