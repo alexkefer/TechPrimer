@@ -5,19 +5,19 @@ import TextBoxNavigator from '../../../components/TextboxNavigator.jsx';
 
 const TextboxTestPage = () => {
     const titles = [
-        'Title 1',
+        'Welcome to the Hardware Course',
         'Title 2',
         'Title 3',
         'Title 4'
     ];
     const subTitles = [
-        'Subtitle 1',
+        'Learning Objectives',
         'Subtitle 2',
         'Subtitle 3',
         'Subtitle 4'
     ];
     const textBoxes = [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '1. Identify and use different types of computer peripherals.\n 2. Identify different cable types, and understand their use. \n 3.Identify the different types of ports and their versions.',
         'Text Box 2',
         'Text Box 3',
         'Text Box 4'

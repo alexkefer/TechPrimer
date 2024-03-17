@@ -16,7 +16,7 @@ const BrowserRouter = createBrowserRouter([
     { path: "/catalogue", element: <Catalogue/> },
     { path: "/howto", element: <VideoTutorial/> },
     { path: "/textbox", element: <TextboxTestPage/> },
-    { path: "/hardwarecourse", element: <HardwareCourse/> },
+    { path: "/hardware-course", element: <HardwareCourse/> },
     { path: "/*", element: <ErrorPage/>}
     ]);
 
