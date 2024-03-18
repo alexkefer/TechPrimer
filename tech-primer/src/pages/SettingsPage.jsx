@@ -84,20 +84,22 @@ function Settings() {
                     <h1 className={'text-center font-semibold text-xl'}>Accessibility</h1>
                     <div className={'flex justify-between'}>
                         <p className={'mt-1'}>Text-to-Speech:</p>
-                        <label className="switch">
+                        <label className="switch" id="tts">
                             <input type="checkbox" checked={ttsEnabled} onChange={handleTtsChange}/>
                             <span className="slider round"></span>
                         </label>
                     </div>
                     <div className={'flex justify-between'}>
                         <p className={'mt-1'}>Colorblind Mode:</p>
-                        <select className={'rounded-md p-1'}>
-                            <option>Disabled</option>
-                            <option>Monochrome</option>
-                            <option>Protanopia</option>
-                            <option>Deuteranopia</option>
-                            <option>Tritanopia</option>
-                        </select>
+                        <label id="color">
+                            <select className={'rounded-md p-1'}>
+                                <option>Disabled</option>
+                                <option>Monochrome</option>
+                                <option>Protanopia</option>
+                                <option>Deuteranopia</option>
+                                <option>Tritanopia</option>
+                            </select>
+                        </label>
                     </div>
                 </div>
                 {/* Other panels similarly... */}

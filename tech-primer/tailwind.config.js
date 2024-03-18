@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage: {
         'catalogue-background': "url('./cataloguebackground.png')",
+        'windows-bg': "url('./windows-bg.jpg')",
       }
     },
   },

@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // For navigation
 import '../App.css'; // Import any header-specific styles
-import { FaBook } from "react-icons/fa6";
 import { IoSettingsSharp } from "react-icons/io5";
+import { FaHome } from "react-icons/fa";
+
 
 
 
@@ -14,7 +15,7 @@ function Header() {
         <header>
             <div className="header p-1 bg-black bg-opacity-25">
                 <Link to="/" className={'button flex'}>
-                    <FaBook className={'mt-2'}/>
+                    <FaHome className={'mt-2'}/>
                     <p className={'ml-2'}>
                         Home
                     </p>
