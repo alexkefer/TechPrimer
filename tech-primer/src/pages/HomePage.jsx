@@ -19,7 +19,7 @@ const HomePage = () => {
                         <FaFileAudio size={90}/>
                     </Link>
                 </div>
-                <Link to="/howto"
+                <Link to="/hardware-course"
                       className={'flex flex-col gap-2 bg-windows-bg bg-white bg-blend-multiply bg-cover py-10 px-2 pr-32 my-5 text-left rounded-2xl border-2 border-black hover:bg-gray-500 hover:text-amber-50 duration-300'}>
                     <p className={'text-3xl font-semibold'}>General Course</p>
                     <p className={'text-xl'}>You have selected: Windows </p>
@@ -34,7 +34,7 @@ const HomePage = () => {
                 </div>
             </div>
         <div className="flex flex-row justify-evenly text-center flex-wrap mb-8">
-            <Link to="/catalogue" className={'flex gap-2 button p-5'}>
+            <Link to="/generalcourses" className={'flex gap-2 button p-5'}>
                 <FaBook size={30}/>
                 <p className={'mt-1'}>Catalogue</p>
             </Link>
@@ -42,7 +42,7 @@ const HomePage = () => {
                 <HiQuestionMarkCircle size={30}/>
                 <p className={'mt-1'}>How to</p>
             </Link>
-            <Link to="/generalcourses" className={'flex gap-2 button p-5'}>
+            <Link to="/enrolledcourses" className={'flex gap-2 button p-5'}>
                 <IoIosBookmarks size={30}/>
                 <p className={'mt-1'}>Enrolled Courses</p>
             </Link>
