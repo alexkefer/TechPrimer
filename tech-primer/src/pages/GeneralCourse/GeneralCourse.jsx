@@ -6,27 +6,27 @@ import Layout from '../../Layout';
 const GeneralCourse = () => {
     return (
         <Layout>
-            <div className="flex flex-col gap-[2rem] text-center text-4xl justify-center flex-wrap mb-8">
+            <div className="flex flex-col gap-[2rem] text-center text-4xl justify-center flex-wrap mb-8 mx-28">
                 <Link to="/hardware-course" className={'button p-16'}>
                     <p>Hardware Overview</p>
                 </Link>
-                <Link href="generalcourses/wip.html" className={'button p-16'}>
-                    <button>Windows Interface</button>
+                <Link to="/windows-course" className={'button p-16'}>
+                    <p>Windows Interface</p>
                 </Link>
-                <Link href="generalcourses/wip.html" className={'button p-16'}>
-                    <button>Accessing the Web</button>
+                <Link to="/web-course"className={'button p-16'}>
+                    <p>Accessing the Web</p>
                 </Link>
-                <Link href="generalcourses/wip.html" className={'button p-16'}>
-                    <button>Keyboard Shortcuts</button>
+                <Link to="/shortcuts-course" className={'button p-16'}>
+                    <p>Keyboard Shortcuts</p>
                 </Link>
-                <Link href="generalcourses/wip.html" className={'button p-16'}>
-                    <button>File Types</button>
+                <Link to="/filetypes-course" className={'button p-16'}>
+                    <p>File Types</p>
                 </Link>
-                <Link href="generalcourses/wip.html" className={'button p-16'}>
-                    <button>Troubleshooting</button>
+                <Link to="/troubleshooting-course" className={'button p-16'}>
+                    <p>Troubleshooting</p>
                 </Link>
-                <Link href="generalcourses/wip.html" className={'button p-16'}>
-                    <button>Internet Security</button>
+                <Link to="/secu-course" className={'button p-16'}>
+                    <p>Internet Security</p>
                 </Link>
             </div>
         </Layout>

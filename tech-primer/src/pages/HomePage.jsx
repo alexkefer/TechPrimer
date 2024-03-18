@@ -38,7 +38,7 @@ const HomePage = () => {
                 <FaBook size={30}/>
                 <p className={'mt-1'}>Catalogue</p>
             </Link>
-            <Link to="/howto" className={'flex gap-2 button p-5'}>
+            <Link to="/howto-wip" className={'flex gap-2 button p-5'}>
                 <HiQuestionMarkCircle size={30}/>
                 <p className={'mt-1'}>How to</p>
             </Link>
