@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
                 <div className={'flex flex-col gap-2 m-2'}>
                     <p className={'text-white text-right'}>
-                        © 2021 Tech Primer
+                        © 2024 Tech Primer
                     </p>
                     <p className={'text-white text-right text-sm'}>
                         Built for CSCI 426 as a mock implementation of our website, whilst not complete we believe it features majority of the design
